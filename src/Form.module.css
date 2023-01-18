@@ -1,0 +1,70 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  width: 30%;
+  margin: 100px auto;
+}
+
+.button {
+  width: 80px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  background-color: grey;
+  color: black;
+  margin-top: 10px;
+  margin-right: 100px;
+}
+
+.button.isValid {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid rgb(16, 16, 61);
+  background-color: rgb(16, 16, 61);
+  color: white;
+  margin-top: 10px;
+  margin-left: 220px;
+}
+
+.name {
+  color: red;
+  font-weight: bold;
+  margin-top: -10px;
+  margin-left: 10px;
+}
+.password {
+  color: red;
+  font-weight: bold;
+  margin-top: -10px;
+  margin-left: 10px;
+}
+.email {
+  color: red;
+  font-weight: bold;
+  margin-top: -10px;
+  margin-left: 10px;
+}
+.age {
+  color: red;
+  font-weight: bold;
+  margin-top: -10px;
+  margin-left: 10px;
+}
+
+input {
+  border-radius: 15px;
+  height: 20px;
+  width: 300px;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.input-blur {
+  border: 1px solid red;
+}
+
+label {
+  margin-left: 10px;
+  font-weight: bold;
+}
